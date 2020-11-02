@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Terra-Calc</title>
+
+</head>
+<body>
+    <header>
+        <h1 class="title">Terra CALC </h1>
+        <br>
+        <div class="links">
+            <a href="index.html">Index</a>
+            <a class="backlanding" href="../index.html">back to Home</a>
+        </div>
+    </header>
+    <hr>
+    <div class="site">
+
+        <h1 class="sand-bckgrnd">Sand & Rock Infill</h1>
+
+        <div class="values">
+            <label for="sqft">Enter SqFt</label>
+            <input type="text" class="square-feet green-text" id="sqft" placeholder="0">
+
+            <label for="height">Average Depth (inches)</label>
+            <input type="text" class="depth green-text" id="height" placeholder="0">
+
+            <label for="perfoot">SQFT Per Mix</label>
+            <input type="text" class="green-text" id="perfoot" placeholder="15sqft default" value="15">
+             
+            <!-- BUTTON WITH CALC FUNCTION \/ -->
+            <button type="submit" id="calculate-btn" class="calculate-btn">Calculate</button>
+    
+            <label for="output">Volume</label>
+            <input id="output" class="output red-text" type="text" placeholder="0">
+            <label for="mixes">Mixes</label>
+            <input class="mixes red-text" type="text" id="mixes" placeholder="0">
+        </div>
+        
+        <div class="material">
+
+            <label for="sand">Sand (lbs)</label>
+            <input class="red-text" id="sand" type="text" placeholder="0">
+            <br>
+
+            <label for="sand">Rock (lbs)</label>
+            <input class="red-text" id="rock" type="text" placeholder="0">
+            <br>
+
+            <label for="epoxy-a">Matrix A</label>
+            <input class="red-text" id="epoxy-a" type="text" placeholder="0">
+            <br>
+
+            <label for="epoxy-b">Hardner B</label>
+            <input class="red-text" id="epoxy-b" type="text" placeholder="0">
+        </div>
+        
+    </div>
+    <Script src="js/main2.js"></Script>
+</body>
+</html>

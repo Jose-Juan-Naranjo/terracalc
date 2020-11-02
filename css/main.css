@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #911d1d;
+  text-align: center;
+}
+
+header {
+  height: 150px;
+}
+
+body header a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(231, 216, 216);
+  font-size: 1.3rem;
+  margin: 20px;
+  background-color: black;
+  width: 100px;
+  border-radius: 10px;
+}
+
+body .site {
+  text-align: center;
+  background-color: #eeecec;
+  padding: 50px 20px;
+}
+
+body .site h1 {
+  font-size: 2rem;
+  background-color: #b32020;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+body .site h1 {
+  color: black;
+  height: 60px;
+  background-image: url(../img/sand.jpg);
+}
+
+body .site .values {
+  background-color: lightgrey;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .site .values .sqft {
+  padding-bottom: 10px;
+}
+
+body .site .material {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site .terrazzo-bckgrnd {
+  background-image: url(../img/epoxy-terrazzo.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(243, 241, 241);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+  background-color: black;
+}
+
+.calculate-btn {
+  display: block;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: rgb(65, 170, 65);
+  padding: 7px;
+  color: white;
+}
+
+.green-text {
+  letter-spacing: .8px;
+  color: rgb(12, 170, 12);
+  font-weight: 700;
+}
+.red-text {
+  letter-spacing: .8px;
+  color: rgb(238, 37, 37);
+  font-weight: 600;
+}
+
+input {
+  display: inline;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 2px black;
+          box-shadow: 0 0 5px 2px black;
+  margin: 5px;
+}
+
+.output {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.skew {
+  text-align: center;
+  -webkit-transform: skew(25deg) scale(1.2);
+          transform: skew(25deg) scale(1.2);
+  cursor: pointer;
+}
+.terrazzo-materials {
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+}
+.box {
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px;
+  width: 120px;
+  height:120px;
+}
+.box p {
+  background-color: rgba(0, 0, 0, 0.151);
+  color: rgb(78, 58, 58);
+  text-decoration: rgb(37, 57, 238) underline;
+}
+.box h5 {
+  padding-top: 10px;
+  color: rgb(5, 99, 5);
+}
+
+/*# sourceMappingURL=main.css.map */
